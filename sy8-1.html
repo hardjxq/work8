@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy8-1</title>
+<style>
+body{margin: 0;
+    padding:0;
+	}
+.bod{margin-left: 400px;
+    margin-right: 400px;
+     }
+form{
+     margin:0;
+	 padding: 200px;
+	 background-color: #666161;
+     color:white;
+	
+	 }
+h2{text-align: center;}
+table{border-spacing: 10px 10px; 
+}
+
+.reg{text-align: center;
+    margin-top: 18px;}
+
+</style>
+</head>
+
+<body>
+<div class="bod">
+<form>
+<h2>增加快递信息</h2>
+ <fieldset>
+ <legend>发货单：</legend>
+ <table>
+ <tbody>
+ <tr>
+ <td class="first">发货人：<input type="text" name="fahuoren"></td>
+ <td class="second">地址：<input type="text" name="address"></td>
+ </tr>
+ <tr>
+ <td class="first">电话：<input type="text" name="phone"></td>
+ <td class="second">邮编：<input type="text" name="mail"></td>
+ </tr>
+ </tbody>
+ </table> </tr>
+ </fieldset>
+ <fieldset>
+ <legend>收货单：</legend>
+ <table>
+ <tr>
+   <td class="first">收货人：<input type="text" name="fahuoren"></td>
+   <td class="second">地址：<input type="text" name="address"></td>
+   </tr>
+   <tr>
+   <td class="first">电话：<input type="text" name="phone"></td>
+   <td class="second">邮编：<input type="text" name="mail"></td> 
+   </tr>
+   <tr>
+   <td class="first">地区：<select>
+   <option>北京</option>
+   <option>上海</option>
+   <option>杭州</option>
+   <option>运城</option>
+   </select></td>
+   <tr>
+   <td>包装：<input type="checkbox" name="pank">纸箱<input type="checkbox" name="pank">木箱<input type="checkbox" name="pank">快递袋<input type="checkbox" name="pank">其他</td></tr>
+   <tr>
+   <td>付款方式：<input type="radio" name="way">现金<input type="radio" name="way">支付宝<input type="radio" name="way">网银<input type="radio" name="way">ATM</td></tr>
+ </tr>
+ </table>
+ </fieldset>
+ <fieldset>
+ <legend>货物信息：</legend>
+ <table>
+ <tbody>
+ <tr>
+ <td class="first" colspan="2">货物名称：<input type="text" name="huowu"></td>
+ </tr>
+ <tr>
+ <td class="first">数量：<input type="text" name="amount"></td>
+ <td class="second">重量：<input type="text" name="weight"></td>
+ <td class="third">发货时间：<input type="text" name="time"></td>
+ </tr>
+ </tbody></table>
+ </fieldset>
+ <div class="reg">
+ <input type="submit" name="submit" value="确认">
+ <input type="reset" name="cancel" value="取消">
+ </div>
+</form>
+</body></div>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy8-2</title>
+<style>
+*{list-style: none;
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  background: url("images/mxcp1.jpg") no-repeat top center;}
+  .top,.bottom{
+               width: 90%;
+			   height: 40px;
+			   background: #63F;
+			   line-height: 40px;
+			   text-align: center;
+			   font-weight: bold;
+			   color: #FFF;
+  }
+  .container{position: relative;
+            top:50px;
+			left: 100px;}
+  .content{
+           width: 90%;
+		   height: 640px;
+  }
+  .cleft{
+         float: left;
+		 width: 200px;
+		 height: 640px;
+		 background: transparent;
+  }
+  .cright{
+          height: 640px;
+		  background: pink;
+		  margin-left: 200px;
+  }
+  .cleft li{
+            width:100%;
+			height: 80px;
+			border-bottom: 1px dashed #CCC;
+			line-height: 40px;
+			text-align: center;
+  }
+  iframe{width: 100%;height: 100%;}
+</style>
+</head>
+
+<body>
+<div class="container">
+   <div class="top">个人学习管理平台</div>
+     <div class="content">
+	    <div class="cleft">
+		<ul>
+		  <li><a href="https://www.tmall.com"target="box"><img src="images/t1.png"width="100%"height="80px"></a></li>
+		  <li><a href="https://www.baidu.com"target="box"><img src="images/t2.png"width="100%"height="80px"></a></li>
+		  <li><a href="https://www.jd.com"target="box"><img src="images/t3.png"width="100%"height="80px"></a></li>
+		  <li><a href="https://www.sina.com.cn"target="box"><img src="images/t4.png"width="100%"height="80px"></a></li>
+		  </ul>
+		</div>
+		<div class="cright">
+		   <iframe src="http://www.tmall.com"name="box"></iframe>
+		</div>
+	</div>
+	<div class="bottom">网页设计学习小组</div>
+</div>
+</body>
+</html>
